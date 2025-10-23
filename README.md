@@ -37,3 +37,13 @@ Each topic can be claimed by **exactly one** student using a Pull Request (PR).
 
 Open a **Discussion** or ask during class/Telegram group.  
 Good luck!
+
+## 📘 How to use these assignments as a student
+
+- **Explore the catalog:** Review all 60 topics in `TOPICS.md` and shortlist the ideas that fit your interests or portfolio goals.
+- **Assess feasibility:** Compare the suggested Supabase schema and tooling with your existing skills to decide what you need to learn or prototype first.
+- **Claim responsibly:** Once confident, follow the claiming workflow above so the topic is reserved in your name.
+- **Plan your build:** Break the requirements into weekly milestones, documenting them in your own project board or tracker before you start coding.
+- **Leverage AI effectively:** Keep a running `AI-log.txt` that records meaningful prompts and outputs you used for ideation, debugging, or asset creation.
+- **Iterate and test:** Develop the app incrementally, demoing features on a device/emulator and validating Supabase integration as you go.
+- **Reflect and share:** When finished, publish a concise case study or README section explaining what you built, challenges faced, and what you learned.
