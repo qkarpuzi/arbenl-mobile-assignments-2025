@@ -18,6 +18,42 @@ Each topic can be claimed by **exactly one** student using a Pull Request (PR).
 
 > 🔒 Once **your PR is merged**, your topic becomes **unavailable** to others.
 
+## 🧭 Udhëzues i detajuar për rezervimin e një projekti (AL)
+
+1. **Zgjidh idenë që të intereson:** Hap `TOPICS.md`, lexo përshkrimet dhe shëno ID-në (p.sh. `07`) të projektit që dëshiron. Sigurohu që statusi i tij të jetë ende **(Available)**.
+2. **Krijo fork në GitHub:** Kliko `Fork` në repo kryesor, në mënyrë që të punosh në kopjen tënde.
+3. **Klono fork-un lokalisht:**  
+   ```bash
+   git clone https://github.com/<username>/arbenl-mobile-assignments-2025.git
+   cd arbenl-mobile-assignments-2025
+   ```
+4. **Krijo një degë pune (opsionale por e rekomanduar):**  
+   ```bash
+   git checkout -b claim-topic-07
+   ```
+5. **Përditëso vetëm rreshtin e temës tënde në `TOPICS.md`:** Ndrysho segmentin `— (Available)` në `— (Taken by EMRI MBIEMRI)` duke ruajtur identik pjesën tjetër të rreshtit. Mos modifiko titullin, ID-në apo shembujt e Supabase.
+6. **Ruaj dhe kontrollo ndryshimin:**  
+   ```bash
+   git status
+   git diff
+   ```
+   Duhet të shfaqet vetëm një ndryshim në rreshtin e zgjedhur.
+7. **Ekzekuto skriptin e verifikimit:**  
+   ```bash
+   node scripts/check-claim.js
+   ```
+   Vazhdon vetëm nëse shfaq `✅ Claim format looks valid.`; përndryshe rregullo gabimet që të tregohen.
+8. **Bëj commit me një mesazh të qartë:**  
+   ```bash
+   git commit -am "Claim topic 07: Multi-language Translator Phrasebook"
+   ```
+9. **Shto degën në GitHub-in tënd:**  
+   ```bash
+   git push origin claim-topic-07
+   ```
+10. **Hap Pull Request te repo origjinal:** Zgjidh bazën `main`, përshkruaj shkurtimisht projektin, plotëso komplet shabllonin (emri yt, ID e temës, stack-u i zgjedhur, plani 1-javor, mjetet AI). Kontrollo që kontrolli automatik (GitHub Action) të kalojë.
+11. **Monitoro PR-në:** Nëse mësimdhënësi kërkon ndryshime, përditëso degën tënde dhe shty listën e re të commit-ëve. Kur PR të miratohet dhe të bashkohet, statusi i temës bëhet automatikisht i zënë për studentët e tjerë.
+
 ## 🔧 Allowed stacks & tools
 
 - **Mobile stacks:** Flutter, React Native (Expo), Kotlin (Android), Swift (iOS)  
