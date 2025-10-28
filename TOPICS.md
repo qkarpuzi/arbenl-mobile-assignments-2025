@@ -122,7 +122,7 @@
    - React Native + Expo Snack: Regjistro seancat me `DateTimePicker`, ruaj në Supabase dhe simuloni metronomin me `Animated` dhe `setInterval`.
 54. Recipe Book + Shopping List (recipes{id, title}, ingredients{id, qty}) — (Available)
    - React Native + Expo Snack: Menaxho receta dhe lista blerjesh në Supabase, shfaq to-do list me `SwipeableRow` për kontroll të përbërësve.
-55. Movie Watchlist + Ratings (movies{id, title, rating, user_id}) — (Available)
+55. Movie Watchlist + Ratings (movies{id, title, rating, user_id}) — (Taken by Enes Jashari)
    - React Native + Expo Snack: Përdor `react-native-ratings` për vlerësime, ruaj filmat në Supabase dhe filtro sipas statusit të shikuar.
 56. Reading Tracker + Quotes (reads{id, book, page, quote, user_id}) — (Available)
    - React Native + Expo Snack: Regjistro progresin me `Slider`, ruaj citate në Supabase dhe shfaq statistikë javore me grafik linear.
